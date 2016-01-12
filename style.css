@@ -64,11 +64,17 @@ body
 	float: left;
 	padding: 10px;
 	font-size: 22px;
-	position: relative;
-	left: 18%;
+	/*position: relative;
+	left: 18%;*/
+
 	
-	
-	
+}
+
+#wyrownywacz
+{
+	width: 55%;
+	margin: 0 auto;
+
 }
 
 .przycisk_gora:hover
