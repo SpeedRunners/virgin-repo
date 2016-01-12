@@ -64,6 +64,9 @@ body
 	float: left;
 	padding: 10px;
 	font-size: 22px;
+	position: relative;
+	left: 18%;
+	
 	
 	
 }
