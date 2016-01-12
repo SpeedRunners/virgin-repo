@@ -1,3 +1,20 @@
+<?php
+session_start();
+
+if((isset($_SESSION['zalogowany'] )) && ($_SESSION['zalogowany'] == true ))
+{
+
+header('Location: zalogowany.php');
+	exit();	
+
+
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,13 +40,14 @@
 <div id="logo"><center>Tu Bedzie log</center></div>
 
 <div id="panel_gorny">
-
+<div id="wyrownywacz" ><center>
 <div class="przycisk_gora">Menu</div>
 <div class="przycisk_gora">O Projekcie</div>
 <div class="przycisk_gora">O Autorze</div>
 <div class="przycisk_gora">Spis Treści</div>
 <div class="przycisk_gora">MAGIA</div>
-
+</center>
+</div>
 <div style="clear:both;"> </div>
 
 </div>
@@ -58,15 +76,31 @@ In bibendum porta nisi ut condimentum. Maecenas sit amet dolor ante. In commodo 
 <div id="logowanie">
 
 <form action="logowanie.php" method="post">
+
 <center>Login:
+
 <input type="text" name="login">
 <br/>
+
 Hasło:
-<input type="text" name="haslo">
+
+<input type="password" name="haslo">
 <br/>
+
 <input type="submit" value="Zaloguj">
-</div>
+
 </center>
+</form>
+
+</div>
+
+
+<center>
+<?php
+	if(isset($_SESSION['error'])) echo  '<span style="color:red; font-size: 20px;">'.$_SESSION['error'].'</span>';
+?>
+</center>
+
 <div style="clear:both;"> </div>
 
 <div id="stopka" >Stona poświęcona ...... Wszelkie prawa zastrzeżone &copy; </div>

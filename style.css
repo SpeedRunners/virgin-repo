@@ -3,6 +3,7 @@ body
 	color: white;
 	background-image:url(imagine/tlo.png);
 	font-family: 'Coda', cursive;
+	
 }
 
 #calosc
@@ -38,6 +39,9 @@ body
 	margin-top: 20px;
 	float: left;
 	width: 640px;
+	text-align: center;
+	
+
 	
 }
 
@@ -55,7 +59,7 @@ body
 	padding: 10px;
 	font-size: 25px;
 	background-color: #43705E;
-	
+	margin-top: 20px;
 }
 
 .przycisk_gora
@@ -83,11 +87,13 @@ body
 	background-color: #9BCFBF;
 	color: black;
 
+
 }
 .przycisk_bok
 {
 	padding: 5px;
 	font-size: 18px;
+	
 	
 }
 
@@ -95,4 +101,5 @@ body
 {
 	background-color: #9BCFBF;
 	color: black;
+	border-radius: 6px;
 }
