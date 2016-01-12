@@ -1,0 +1,89 @@
+body
+{
+	color: white;
+	background-image:url(imagine/tlo.png);
+	font-family: 'Coda', cursive;
+}
+
+#calosc
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+
+}
+
+#logo
+{
+	
+}
+
+#panel_gorny
+{
+	
+	padding: 10px;
+	background-color: #43705E;
+	
+}
+
+#panel_boczny
+{
+	float: left;
+	width: 160px;
+	margin-top: 20px;
+}
+
+#zawartosc
+{
+	margin-top: 20px;
+	float: left;
+	width: 640px;
+	
+}
+
+#logowanie
+{
+	margin-top: 20px;
+	float: left;
+	width: 200px;
+	font-size: 20px;
+}
+
+#stopka
+{
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	background-color: #43705E;
+	
+}
+
+.przycisk_gora
+{
+	text-align: center;
+	float: left;
+	padding: 10px;
+	font-size: 22px;
+	
+	
+}
+
+.przycisk_gora:hover
+{
+	
+	background-color: #9BCFBF;
+	color: black;
+
+}
+.przycisk_bok
+{
+	padding: 5px;
+	font-size: 18px;
+	
+}
+
+.przycisk_bok:hover
+{
+	background-color: #9BCFBF;
+	color: black;
+}
