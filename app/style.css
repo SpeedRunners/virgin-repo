@@ -16,7 +16,9 @@ body
 
 #logo
 {
-	
+    color: antiquewhite;
+	background-image: url(img/logo.png);
+    font-family: 'coda';
 }
 
 #panel_gorny
