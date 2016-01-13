@@ -24,7 +24,7 @@ session_start();
 		$haslo = htmlentities($haslo, ENT_QUOTES, "UTF-8");
 	
 		if ($rezultat = @$baza->query(
-		sprintf("SELECT * FROM dane WHERE login='%s' AND haslo='%s'",
+		sprintf("SELECT * FROM logowanie WHERE login='%s' AND haslo='%s'",
 		mysqli_real_escape_string($baza,$login),
 		mysqli_real_escape_string($baza,$haslo))))
 		{
