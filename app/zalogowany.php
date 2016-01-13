@@ -20,16 +20,16 @@
 <title>Strona</title>
 	
 <meta name="description" content="Opis w Google" />
-<meta name="keywords" content="s³owa, kluczowe, wypisane, po, porzecinku" />
+<meta name="keywords" content="sï¿½owa, kluczowe, wypisane, po, porzecinku" />
 
 
-<link rel="Stylesheet" type="text/css" href="style.css" />
+<link rel="Stylesheet" type="text/css" href="app/style.css" />
 <link href='https://fonts.googleapis.com/css?family=Coda:400,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
 
-<a href = "wyloguj.php"><h1> WYLOGUJ SIE</h1> </a>
+<a href = "app/wyloguj.php"><h1> WYLOGUJ SIE</h1> </a>
 </body>
 
 </head>

@@ -7,7 +7,7 @@ session_start();
 		exit();
 	}	
 	
-	require_once "connect.php";
+	require_once "app/connect.php";
 	
 	$baza = @new mysqli($host, $db_user, $db_password, $db_name);
 	
@@ -35,7 +35,7 @@ session_start();
 				
 				$_SESSION['zalogowany'] = true;
 				unset($_SESSION['error']);
-				header('Location: zalogowany.php');
+				header('Location: app/zalogowany.php');
 				
 			}
 			else
