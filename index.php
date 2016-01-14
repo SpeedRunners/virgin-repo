@@ -4,7 +4,7 @@ session_start();
 if((isset($_SESSION['zalogowany'] )) && ($_SESSION['zalogowany'] == true ))
 {
 
-header('Location: zalogowany.php');
+header('Location: app/zalogowany.php');
 	exit();	
 
 
@@ -28,7 +28,8 @@ header('Location: zalogowany.php');
 <meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
 
 
-<link rel="Stylesheet" type="text/css" href="app/style.css" />
+<link rel="Stylesheet" type="text/css" href="style.css" />
+
 <link href='https://fonts.googleapis.com/css?family=Coda:400,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
@@ -75,7 +76,7 @@ In bibendum porta nisi ut condimentum. Maecenas sit amet dolor ante. In commodo 
 
 <div id="logowanie">
 
-<form action="php/logowanie.php" method="post">
+<form action="app/logowanie.php" method="post">
 
 <center>Login:
 

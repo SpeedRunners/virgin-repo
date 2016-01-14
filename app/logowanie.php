@@ -3,11 +3,11 @@ session_start();
 
 	if((!isset($_POST['login'] )) || (!isset($_POST['haslo'])))
 	{
-		header('Location: index.php');
+		header('Location: ../index.php');
 		exit();
 	}	
 	
-	require_once "app/connect.php";
+	require_once "connect.php";
 	
 	$baza = @new mysqli($host, $db_user, $db_password, $db_name);
 	
@@ -35,13 +35,13 @@ session_start();
 				
 				$_SESSION['zalogowany'] = true;
 				unset($_SESSION['error']);
-				header('Location: app/zalogowany.php');
+				header('Location: zalogowany.php');
 				
 			}
 			else
 			{
 				$_SESSION['error'] = "Błędne dane logowania!!!";
-				header('Location: index.php');
+				header('Location: ../index.php');
 			}
 		}
 		$baza -> close();

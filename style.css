@@ -16,9 +16,7 @@ body
 
 #logo
 {
-    color: antiquewhite;
-	background-image: url(img/logo.png);
-    font-family: 'coda';
+
 }
 
 #panel_gorny
@@ -78,7 +76,7 @@ body
 
 #wyrownywacz
 {
-	width: 55%;
+	width: 60%;
 	margin: 0 auto;
 
 }
