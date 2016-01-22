@@ -19,6 +19,10 @@ header('location: app/joinus.php')
     
 </head>
 <body>
-        
+    <div id=calosc >
+        <div id=sub_site>
+            
+        </div>
+    </div>
 </body>
 </html>

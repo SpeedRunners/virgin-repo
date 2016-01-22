@@ -46,6 +46,11 @@ body
 	
 }
 
+#sub_site
+{
+    min-height: 100%;
+}
+
 #logowanie
 {
 	margin-top: 20px;
