@@ -2,7 +2,7 @@ body
 {
 	color: white;
 	background-image:url(img/tlo.png);
-	font-family: 'Coda', cursive;
+	font-family: 'Inconsolata', ;
 	
 }
 
@@ -16,7 +16,8 @@ body
 
 #logo
 {
-
+    align-content: center;
+    
 }
 
 #panel_gorny

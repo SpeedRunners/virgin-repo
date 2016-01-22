@@ -30,7 +30,7 @@ header('Location: app/zalogowany.php');
 
 <link rel="Stylesheet" type="text/css" href="style.css" />
 
-<link href='https://fonts.googleapis.com/css?family=Coda:400,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
 
 </head>
 
