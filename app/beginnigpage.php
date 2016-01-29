@@ -11,7 +11,7 @@ header('location: app/joinus.php')
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     
-    <title>nazwa_tego_gowna</title>
+    <title>Welcome to Gówno</title>
 
     <link rel="Stylesheet" type="text/css" href="style.css" />
     
@@ -22,6 +22,31 @@ header('location: app/joinus.php')
     <div id=calosc >
         <div id=sub_site>
             
+        </div>
+        <div id=sub_site>
+            
+        </div>
+        <div id=sub_site>
+            
+        </div>
+        <div id=sub_site>
+            <div id=registration>
+                <div>
+                    <form id=login ></form>
+                </div>
+                
+                <div>
+                    <form id=e-mail></form>
+                </div>
+                
+                <div>
+                    <form id=hasło></form>
+                </div>
+                
+                <div>
+                    <form id=reCatchpa></form>
+                </div>
+            </div>
         </div>
     </div>
 </body>

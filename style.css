@@ -40,15 +40,24 @@ body
 	margin-top: 20px;
 	float: left;
 	width: 640px;
-	text-align: center;
-	
-
-	
+	text-align: center;	
 }
 
 #sub_site
 {
     min-height: 100%;
+}
+
+#sub_site_center
+{
+    min-height: 100%;
+    align-content: center;
+    margin-top: 20%;
+}
+
+#reg_center
+{
+    height: 50%;
 }
 
 #logowanie
