@@ -31,21 +31,15 @@ header('location: app/joinus.php')
         </div>
         <div id=sub_site>
             <div id=registration>
-                <div>
-                    <form id=login ></form>
-                </div>
-                
-                <div>
-                    <form id=e-mail></form>
-                </div>
-                
-                <div>
-                    <form id=hasło></form>
-                </div>
-                
-                <div>
-                    <form id=reCatchpa></form>
-                </div>
+                <form >
+                    <div>
+                        <input name="login" type="text" class="formInput">
+                        <input name="e-mail" type="email" class="formInput">
+                        <input name="pass" type="password" class="formInput">
+                        <input name="catcpta" type="number">
+                        <input type="submit" onmouseover="img/reg2.png" onmouseout="img/reg1.png">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
