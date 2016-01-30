@@ -20,16 +20,16 @@
 </head>
 <body>
     <div id=calosc >
-        <div id=sub_site>
+        <div id=sub_site1>
             
         </div>
-        <div id=sub_site>
+        <div id=sub_site2>
             
         </div>
-        <div id=sub_site>
+        <div id=sub_site3>
             
         </div>
-        <div id=sub_site>
+        <div id=sub_site4>
             <div id=registration>
                 <div id=formInReg>
                     <form >

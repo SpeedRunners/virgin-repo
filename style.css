@@ -48,11 +48,12 @@ body
     min-height: 100%;
 }
 
-#sub_site_center
+#sub_site4
 {
     min-height: 100%;
     align-content: center;
     margin-top: 20%;
+    background-image: url(img/sub_site4bcg.png)
 }
 
 #formInReg
