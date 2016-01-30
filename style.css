@@ -55,14 +55,20 @@ body
     margin-top: 20%;
 }
 
-.formInput
+#formInReg
 {
-    
+    margin-top: 243px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
-#reg_center
+#registration
 {
-    height: 50%;
+    align-content: center;
+    background-image: url(img/regForm.png);
+    width: 500px;
+    height: 600px;
 }
 
 #logowanie
@@ -99,6 +105,11 @@ body
 	width: 60%;
 	margin: 0 auto;
 
+}
+
+.center
+{
+    align-content: center;
 }
 
 .przycisk_gora:hover
