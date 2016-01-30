@@ -43,14 +43,37 @@ body
 	text-align: center;	
 }
 
-#sub_site
+#sub_site1
 {
     min-height: 100%;
+    min-width: 100%;
+    align-content: center;
+    margin-top: 20%;
+    background-image: url(img/sub_site1bcg.png)
+}
+
+#sub_site2
+{
+    min-height: 100%;
+    min-width: 100%;
+    align-content: center;
+    margin-top: 20%;
+    background-image: url(img/sub_site2bcg.png)
+}
+
+#sub_site3
+{
+    min-height: 100%;
+    min-width: 100%;
+    align-content: center;
+    margin-top: 20%;
+    background-image: url(img/sub_site3bcg.png)
 }
 
 #sub_site4
 {
     min-height: 100%;
+    min-width: 100%;
     align-content: center;
     margin-top: 20%;
     background-image: url(img/sub_site4bcg.png)
