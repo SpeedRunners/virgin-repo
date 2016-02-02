@@ -13,25 +13,25 @@
     
     <title>Welcome to Gówno</title>
 
-    <link rel="Stylesheet" type="text/css" href="style.css" />
+    <link rel="Stylesheet" type="text/css" href="../style.css" />
     
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     
 </head>
 <body>
-    <div id=calosc >
-        <div id=sub_site1>
+    <div id="calosc2" >
+        <div id="sub_site1">
             
         </div>
-        <div id=sub_site2>
+        <div id="sub_site2">
             
         </div>
-        <div id=sub_site3>
+        <div id="sub_site3">
             
         </div>
-        <div id=sub_site4>
-            <div id=registration>
-                <div id=formInReg>
+        <div id="sub_site4">
+            <div id="registration"><center>
+                <div id="formInReg">
                     <form >
                         <div>
                             Twój adres email:
@@ -50,6 +50,7 @@
                         </div>
                     </form>
                 </div>
+                </center>
             </div>
         </div>
     </div>
