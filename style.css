@@ -80,11 +80,19 @@ align-content: center;
 
 #formInReg
 {
-   
+    position: absolute;
+    margin-top: 300px;
+}
+
+
+.formInput
+{
+    margin-left: 120px;
 }
 
 #registration
 {
+    position: absolute;
     align-content: center;
     background-image: url(img/regForm.png);
     width: 500px;
@@ -129,6 +137,7 @@ align-content: center;
 
 .center
 {
+    position: relative;
     align-content: center;
 }
 

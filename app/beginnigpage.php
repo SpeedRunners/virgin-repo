@@ -30,28 +30,27 @@
             
         </div>
         <div id="sub_site4">
-            <div id="registration"><center>
-                <div id="formInReg">
-                    <form >
-                        <div>
+            <div id="registration">
+                 <div id="formInReg">
+                     <form >
+                         <div class="formInput">
                             Twój adres email:
-                        </div>
-                        <div>
-                            <input name="e-mail" type="email" class="formInput">
-                        </div>
-                        <div>
-                            Hasło:
-                        </div>
-                        <div>
-                            <input name="pass" type="password" class="formInput">
-                        </div>
-                        <div class="center">
-                            <input type="submit" onmouseover="img/reg2.png" onmouseout="img/reg1.png">
-                        </div>
+                         </div>
+                         <div>
+                             <input name="e-mail" type="email" class="formInput">
+                         </div>
+                         <div class="formInput">
+                             Hasło:
+                         </div>
+                         <div>
+                             <input name="pass" type="password" class="formInput">
+                         </div>
+                         <div class="center">
+                             <input type="submit" onmouseover="img.src=img/reg1.png" onmouseout="img.src=img/reg2.png">
+                         </div>
                     </form>
-                </div>
-                </center>
-            </div>
+                  </div>
+              </div>
         </div>
     </div>
 </body>
