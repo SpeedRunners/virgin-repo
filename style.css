@@ -1,165 +1,109 @@
-body
-{
-	color: white;
-	background-image:url(img/tlo.png);
-	font-family: 'Inconsolata', ;
-	
+body {
+    color: white;
+    background-image: url(img/tlo.png);
+    font-family: 'Inconsolata', ;
 }
-
-#calosc
-{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
-
+#calosc {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
-#calosc2
-{
-	margin-left: auto;
-	margin-right: auto;
-align-content: center;
-
-}
-
-#logo
-{
+#calosc2 {
+    margin-left: auto;
+    margin-right: auto;
     align-content: center;
-    
 }
-
-#panel_gorny
-{
-	
-	padding: 10px;
-	background-color: #43705E;
-	
+#logo {
+    align-content: center;
 }
-
-#panel_boczny
-{
-	float: left;
-	width: 160px;
-	margin-top: 20px;
+#panel_gorny {
+    padding: 10px;
+    background-color: #43705E;
 }
-
-#zawartosc
-{
-	margin-top: 20px;
-	float: left;
-	width: 640px;
-	text-align: center;	
+#panel_boczny {
+    float: left;
+    width: 160px;
+    margin-top: 20px;
 }
-
-#sub_site1
-{
+#zawartosc {
+    margin-top: 20px;
+    float: left;
+    width: 640px;
+    text-align: center;
+}
+#sub_site1 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site1bcg.png);
 }
-
-#sub_site2
-{
-				height: 1080px;
+#sub_site2 {
+    height: 1080px;
     align-content: center;
     background-image: url(img/sub_site2bcg.png);
 }
-
-#sub_site3
-{
+#sub_site3 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site3bcg.png);
 }
-
-#sub_site4
-{
+#sub_site4 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site4bcg.png);
 }
-
-#formInReg
-{
+#formInReg {
     position: absolute;
     margin-top: 300px;
 }
-
-
-.formInput
-{
+.formInput {
     margin-left: 120px;
 }
-
-#registration
-{
+#registration {
     position: absolute;
     align-content: center;
     background-image: url(img/regForm.png);
     width: 500px;
     height: 600px;
 }
-
-#logowanie
-{
-	margin-top: 20px;
-	float: left;
-	width: 200px;
-	font-size: 20px;
+#logowanie {
+    margin-top: 20px;
+    float: left;
+    width: 200px;
+    font-size: 20px;
 }
-
-#stopka
-{
-	text-align: center;
-	padding: 10px;
-	font-size: 25px;
-	background-color: #43705E;
-	margin-top: 20px;
+#stopka {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #43705E;
+    margin-top: 20px;
 }
-
-.przycisk_gora
-{
-	text-align: center;
-	float: left;
-	padding: 10px;
-	font-size: 22px;
-	/*position: relative;
+.przycisk_gora {
+    text-align: center;
+    float: left;
+    padding: 10px;
+    font-size: 22px;
+    /*position: relative;
 	left: 18%;*/
-
-	
 }
-
-#wyrownywacz
-{
-	width: 60%;
-	margin: 0 auto;
-
+#wyrownywacz {
+    width: 60%;
+    margin: 0 auto;
 }
-
-.center
-{
+.center {
     position: relative;
     align-content: center;
 }
-
-.przycisk_gora:hover
-{
-	
-	background-color: #9BCFBF;
-	color: black;
-
-
+.przycisk_gora:hover {
+    background-color: #9BCFBF;
+    color: black;
 }
-.przycisk_bok
-{
-	padding: 5px;
-	font-size: 18px;
-	
-	
+.przycisk_bok {
+    padding: 5px;
+    font-size: 18px;
 }
-
-.przycisk_bok:hover
-{
-	background-color: #9BCFBF;
-	color: black;
-	border-radius: 6px;
+.przycisk_bok:hover {
+    background-color: #9BCFBF;
+    color: black;
+    border-radius: 6px;
 }
