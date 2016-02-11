@@ -72,3 +72,9 @@ body {
     position: relative;
     align-content: center;
 }
+
+.error
+{
+	color: red;
+	padding: 5px;
+}

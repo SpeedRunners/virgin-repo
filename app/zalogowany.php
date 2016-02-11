@@ -27,7 +27,10 @@
 <link href='https://fonts.googleapis.com/css?family=Inconsolata&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
+WITAJ!!! <br/>
+<?php
+echo $_SESSION['nazwagracza'];
+?>
 <a href = "wyloguj.php"><h1> WYLOGUJ SIE</h1> </a>
 </body>
 

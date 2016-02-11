@@ -16,8 +16,8 @@ header('Location: app/zalogowany.php');
 
 
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="pl">
+<head >
 
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -42,7 +42,7 @@ header('Location: app/zalogowany.php');
 </div>
 
 <div id="logowanie">
-
+<a href="app/register.php">Nowe konto</a>
 <form action="app/logowanie.php" method="post">
 
 <center>Login:
