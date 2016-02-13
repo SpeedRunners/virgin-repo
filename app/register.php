@@ -66,8 +66,8 @@
 			$wszystko_OK=false;
 			$_SESSION['checkbox_error']="Musisz zaakceptować regulamin.";
 		}		
-		
-	// captcha
+	/*z tego co czytałem catchpa opłaca się robić, tylko wedy kiedy ktoś cię DDosuje,
+	// captcha  
 	
 	 $captcha = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secretkey.'&response='.$_POST['g-recaptcha-response']);
 	 $odpcaptcha = json_decode($captcha);
@@ -77,7 +77,7 @@
 			$reg=false;
 			$_SESSION['bot_error']="Potwierdź, że jesteś człowiekiem.";
 		}
-	
+	*/
 	
 	// dodawanie nowego uzytkownika
 	
