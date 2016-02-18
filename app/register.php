@@ -203,7 +203,7 @@ if( isset($_SESSION['haslo_error']))
 ?>
 
 <label>
- <input type="checkbox" name="checkbox" /> Akceptuje regulamin 
+ <input type="checkbox" name="checkbox" /> Akceptuję regulamin 
 </label>
 
 <?php 
@@ -214,18 +214,19 @@ if( isset($_SESSION['checkbox_error']))
 }
 ?>
 
-<div class="g-recaptcha" data-sitekey="6LdNBRgTAAAAAAXI2wV6jMzf1nt4Ru9WIe5WvS2A"></div>
+<!--<div class="g-recaptcha" data-sitekey="6LdNBRgTAAAAAAXI2wV6jMzf1nt4Ru9WIe5WvS2A"></div>
 <br/>
-
+-->
 <?php 
-if( isset($_SESSION['bot_error']))
+/*if( isset($_SESSION['bot_error']))
 {
 	echo '<div class = "error">'.$_SESSION['bot_error'].'</div>';
 	unset($_SESSION['bot_error']);
 }
+*/
 ?>
 
-<input type="submit" value="Zakończ rejestracjię!!!" />
+<input type="submit" value="Graj już teraz!!!" />
 
 </form>
 

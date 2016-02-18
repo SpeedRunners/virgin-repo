@@ -61,6 +61,8 @@ body {
 }
 #registration {
     position: absolute;
+    left: 710px;
+    margin-top: 200px;
     align-content: center;
     background-image: url(img/regForm.png);
     width: 500px;
@@ -69,7 +71,8 @@ body {
 
 .center 
 {
-    position: relative;
+    position: absolute;
+    left: 50px;
     align-content: center;
 }
 
