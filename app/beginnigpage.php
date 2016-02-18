@@ -195,7 +195,7 @@
                                 Adres email:
                             </div>
                             <div>
-                                <input name="text" type="email" class="formInput">
+                                <input name="email" type="text" class="formInput">
                                 <?php 
                                 if( isset($_SESSION['email_error']))
                                 {
