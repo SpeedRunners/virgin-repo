@@ -236,7 +236,7 @@
                                 ?>
                             </div>
                             <div class="center">
-                                <input type="image" onmouseover="../img/reg1.png" onmouseout="../img/reg2.png" border=0 height="100" width="400">
+                                <input type="image" name="submit" src="../img/reg1.png">
                             </div>
                         </form>
                     </div>
