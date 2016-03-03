@@ -2,63 +2,67 @@ body {
     color: white;
     background-image: url(img/tlo.png);
     font-family: 'Inconsolata', ;
-		overflow:hidden;
-	
+    overflow: hidden;
 }
+
 #calosc {
     margin-left: auto;
     margin-right: auto;
- 
 }
+
 #calosc2 {
     margin-left: auto;
     margin-right: auto;
     align-content: center;
 }
 
-#tlo
-{
-	float: left;
-	min-width: 550px;
+#tlo {
+    float: left;
+    min-width: 550px;
 }
 
 #logowanie {
- margin-top: 20px;
-	float: left;
-	width: 200px;
-	font-size: 20px;
-	float: left;
-	position: absolute;
-	right: 400px;
+    margin-top: 20px;
+    float: left;
+    width: 200px;
+    font-size: 20px;
+    float: left;
+    position: absolute;
+    right: 400px;
 }
-
 #sub_site1 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site1bcg.png);
 }
+
 #sub_site2 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site2bcg.png);
 }
+
 #sub_site3 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site3bcg.png);
 }
+
 #sub_site4 {
     height: 1080px;
     align-content: center;
     background-image: url(img/sub_site4bcg.png);
 }
+
 #formInReg {
     position: absolute;
     margin-top: 250px;
 }
+
 .formInput {
     margin-left: 120px;
 }
+
 #registration {
     position: absolute;
     left: 710px;
@@ -69,15 +73,28 @@ body {
     height: 600px;
 }
 
-.center 
-{
+#puste {
+    width: 30%;
+    float: left;
+}
+
+#DLACZEGO {
+    width: 70%;
+    float: left;
+}
+div > div > div > div{
+    margin: 15px;
+    padding: 15px;
+    border 10px;
+}
+
+.center {
     position: absolute;
     left: 50px;
     align-content: center;
 }
 
-.error
-{
-	color: red;
-	padding: 5px;
+.error {
+    color: red;
+    padding: 5px;
 }

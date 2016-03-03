@@ -20,12 +20,35 @@
         <div id="sub_site1">
 
         </div>
+        <!--powody do dołączenia-->
         <div id="sub_site2">
-
+            <div id="puste">
+            </div>
+            <div id="DLACZEGO">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet enim.</li>
+                    <li>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis</li>
+                    <li>Maecenas malesuada elit lectus felis, malesuada ultricies.</li>
+                    <li>Curabitur et ligula. Ut molestie a, ultricies porta urna.</li>
+                </ul>
+            </div>
         </div>
+        <!--galeria-->
         <div id="sub_site3">
-
+            <!--START JUICEBOX EMBED-->
+            <script src="../img/galeria/jbcore/juicebox.js"></script>
+            <script>
+                new juicebox({
+                    containerId: "juicebox-container",
+                    galleryWidth: "100%",
+                    galleryHeight: "100%",
+                    backgroundColor: "#222222"
+                });
+            </script>
+            <div id="juicebox-container"></div>
+            <!--END JUICEBOX EMBED-->
         </div>
+        <!--rejestracja-->
         <div id="sub_site4">
             <?php 
     // zmienne pomocnicz
@@ -171,9 +194,8 @@
 			}
 	
 	
-	
+        
 	}
-	
 ?>
                 <div id="registration">
                     <div id="formInReg">
