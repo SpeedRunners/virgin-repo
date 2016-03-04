@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <?php 
 	// zmienne pomocnicz
@@ -149,30 +148,53 @@
 	
 	
 ?>
-<!DOCTYPE HTML>
-<html>
-<head lang="pl">
+    <!DOCTYPE HTML>
+    <html>
 
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	
-<title>Strona</title>
-	
-<meta name="description" content="Opis w Google" />
-<meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+    <head lang="pl">
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-<link rel="Stylesheet" type="text/css" href="../style.css" />
-<link href='https://fonts.googleapis.com/css?family=Inconsolata&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+        <meta name="theme-color" content="#ffffff">
+        <title>Strona</title>
 
-</head>
-<body>
+        <meta name="description" content="Opis w Google" />
+        <meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
 
-<form method="post">
-Nickname: <br/> <input type="text" name="nick" /> <br/>
 
-<?php 
+        <link rel="Stylesheet" type="text/css" href="../style.css" />
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="../img/favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="../img/favicons/manifest.json">
+        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="../img/favicons/mstile-144x144.png">
+    </head>
+
+    <body>
+
+        <form method="post">
+            Nickname:
+            <br/>
+            <input type="text" name="nick" />
+            <br/>
+
+            <?php 
 if( isset($_SESSION['nick_error']))
 {
 	echo '<div class = "error">'.$_SESSION['nick_error'].'</div>';
@@ -180,9 +202,12 @@ if( isset($_SESSION['nick_error']))
 }
 ?>
 
-E-mail: <br/> <input type ="text" name="email"/> <br/>
+                E-mail:
+                <br/>
+                <input type="text" name="email" />
+                <br/>
 
-<?php 
+                <?php 
 if( isset($_SESSION['email_error']))
 {
 	echo '<div class = "error">'.$_SESSION['email_error'].'</div>';
@@ -190,11 +215,15 @@ if( isset($_SESSION['email_error']))
 }
 ?>
 
-Hasło: <br/> <input type="password" name="haslo1"/> <br/>
+                    Hasło:
+                    <br/>
+                    <input type="password" name="haslo1" />
+                    <br/> Powtórz hasło:
+                    <br/>
+                    <input type="password" name="haslo2" />
+                    <br/>
 
-Powtórz hasło: <br/> <input type="password" name="haslo2"/> <br/>
-
-<?php 
+                    <?php 
 if( isset($_SESSION['haslo_error']))
 {
 	echo '<div class = "error">'.$_SESSION['haslo_error'].'</div>';
@@ -202,11 +231,11 @@ if( isset($_SESSION['haslo_error']))
 }
 ?>
 
-<label>
- <input type="checkbox" name="checkbox" /> Akceptuję regulamin 
-</label>
+                        <label>
+                            <input type="checkbox" name="checkbox" /> Akceptuję regulamin
+                        </label>
 
-<?php 
+                        <?php 
 if( isset($_SESSION['checkbox_error']))
 {
 	echo '<div class = "error">'.$_SESSION['checkbox_error'].'</div>';
@@ -214,10 +243,10 @@ if( isset($_SESSION['checkbox_error']))
 }
 ?>
 
-<!--<div class="g-recaptcha" data-sitekey="6LdNBRgTAAAAAAXI2wV6jMzf1nt4Ru9WIe5WvS2A"></div>
+                            <!--<div class="g-recaptcha" data-sitekey="6LdNBRgTAAAAAAXI2wV6jMzf1nt4Ru9WIe5WvS2A"></div>
 <br/>
 -->
-<?php 
+                            <?php 
 /*if( isset($_SESSION['bot_error']))
 {
 	echo '<div class = "error">'.$_SESSION['bot_error'].'</div>';
@@ -226,10 +255,10 @@ if( isset($_SESSION['checkbox_error']))
 */
 ?>
 
-<input type="submit" value="Graj już teraz!!!" />
+                                <input type="submit" value="Graj już teraz!!!" />
 
-</form>
+        </form>
 
-</body>
+    </body>
 
-</head>
+    </head>

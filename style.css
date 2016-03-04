@@ -39,7 +39,7 @@ body {
 #sub_site2 {
     height: 1080px;
     align-content: center;
-    background-image: url(img/sub_site2bcg.png);
+    background: -elenent(canvas)
 }
 
 #sub_site3 {
@@ -82,10 +82,13 @@ body {
     width: 70%;
     float: left;
 }
-div > div > div > div{
-    margin: 15px;
-    padding: 15px;
-    border 10px;
+
+#canvas{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    background-image: url(img/sub_site2bcg.png)
 }
 
 .center {
@@ -94,6 +97,9 @@ div > div > div > div{
     align-content: center;
 }
 
+.absolute{
+    position: absolute;
+}
 .error {
     color: red;
     padding: 5px;
