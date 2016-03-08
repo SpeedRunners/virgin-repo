@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Welcome to Shit</title>
+    <title>Witaj na Haka Masta</title>
 
     <link rel="Stylesheet" type="text/css" href="../style.css" />
 
@@ -118,7 +118,9 @@
 <body style="overflow: auto !important;">
     <div id="calosc2">
         <div id="sub_site1">
+            <div>
 
+            </div>
         </div>
         <!--powody do dołączenia-->
         <div id="sub_site2">
@@ -134,7 +136,7 @@
                     </ul>
                 </div>
             </div>
-            <canvas id="canvas" width="100%" height="100%"></canvas>
+            <canvas id="canvas" width="100%" height="100%" center></canvas>
         </div>
         <!--galeria-->
         <div id="sub_site3">

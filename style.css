@@ -30,27 +30,32 @@ body {
     position: absolute;
     right: 400px;
 }
+
 #sub_site1 {
     height: 1080px;
     align-content: center;
+    position: relative;
     background-image: url(img/sub_site1bcg.png);
 }
 
 #sub_site2 {
     height: 1080px;
     align-content: center;
+    position: relative;
     background: -elenent(canvas)
 }
 
 #sub_site3 {
     height: 1080px;
     align-content: center;
+    position: relative;
     background-image: url(img/sub_site3bcg.png);
 }
 
 #sub_site4 {
     height: 1080px;
     align-content: center;
+    position: relative;
     background-image: url(img/sub_site4bcg.png);
 }
 
@@ -65,12 +70,15 @@ body {
 
 #registration {
     position: absolute;
-    left: 710px;
-    margin-top: 200px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
     align-content: center;
     background-image: url(img/regForm.png);
-    width: 500px;
-    height: 600px;
+    max-width: 500px;
+    max-height: 600px;
 }
 
 #puste {
@@ -83,7 +91,7 @@ body {
     float: left;
 }
 
-#canvas{
+#canvas {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -97,9 +105,10 @@ body {
     align-content: center;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
+
 .error {
     color: red;
     padding: 5px;
