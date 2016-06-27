@@ -7,7 +7,9 @@ class Home extends \App\Engine\Controller
 {
 
     public function index(){
-        echo "INDEX";
+        $view = new \App\View\Home();
+        $view-> wynik = 'index';
+        $view->renderHTML('home', 'front/home/'); 
         
     }   
     
