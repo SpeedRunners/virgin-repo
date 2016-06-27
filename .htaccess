@@ -1,8 +1,6 @@
-### PROTECT FILES ###
-<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
-Order Allow,Deny
-Deny from all
-</FilesMatch>
+Options +FollowSymLinks
+RewriteEngine On
 
-RewriteEngine on
-RewriteRule strona-startowa index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [NC,L]
