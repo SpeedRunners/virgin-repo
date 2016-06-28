@@ -89,6 +89,19 @@ abstract class View{
     public function getFooter() {
         return $this->renderHTML('footer', 'front/');
     }
+    
+    /**
+    * Ładuje menu
+    */
+    public function getMenu() {
+        return $this->renderHTML('menu', 'front/');
+    }
+    /**
+    * Ładuje Info-top
+    */
+    public function getInfo_top() {
+        return $this->renderHTML('info_top', 'front/');
+    }
     /**
      * It sets data.
      *

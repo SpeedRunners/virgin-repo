@@ -35,11 +35,29 @@ HTTP_SERVER.'test/<id>?/<id2>?',
     )
 ));
 
+$collection->add('rejestracja', new \App\Engine\Router\Route(
+ HTTP_SERVER.'rejestracja',
+    array(
+        'file' => DIR_CONTROLLER.'Home.php',
+        'method' => 'rejestracja',
+        'class' => '\App\Controller\Home'
+    )
+));
+
+$collection->add('logowanie', new \App\Engine\Router\Route(
+ HTTP_SERVER.'logowanie',
+    array(
+        'file' => DIR_CONTROLLER.'Home.php',
+        'method' => 'logowanie',
+        'class' => '\App\Controller\Home'
+    )
+));
+
 $collection->add('home', new \App\Engine\Router\Route(
     HTTP_SERVER.'',
     array(
         'file' => DIR_CONTROLLER.'Home.php',
-        'method' => 'index',
+        'method' => 'home',
         'class' => '\App\Controller\Home'
     )
 ));

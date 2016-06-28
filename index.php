@@ -15,7 +15,7 @@ $obj->$method();
 
 //-----------DEBUG--------------
 if(DEBUG_MODE){
-echo "<hr>";
+echo "<hr><center>";
 echo "DEBUG MODE" . "<br/>"; 
 echo "Plik: " . $router->getFile() . "<br/>
 Klasa: " . $router->getClass() . "<br/>
