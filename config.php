@@ -6,6 +6,6 @@ define('DATABASE_PASSOWD', '');
 define('DIR_VENDOR', 'vendor/');
 define('DIR_TEMPLATE', 'src/template/');
 define('DIR_CONTROLLER', 'src/Controller/');
-define('HTTP_SERVER', 'http://localhost/virgin-repo/');
+define('HTTP_SERVER', 'http://localhost:8080/virgin-repo/');
 
 define('DEBUG_MODE' , true);
