@@ -7,11 +7,14 @@ class Home extends \App\Engine\Controller
 {
 
     public function home(){
+            
         $view = new \App\View\Home();
         $view->renderHTML('home', 'front/home/'); 
+        
     }
     
     public function rejestracja(){
+        
         $view = new \App\View\Home();
         $view->renderHTML('rejestracja', 'front/home/'); 
     }
@@ -20,7 +23,7 @@ class Home extends \App\Engine\Controller
         $view = new \App\View\Home();
         $view->renderHTML('logowanie', 'front/home/'); 
     }
-    
+    /*
     public function test(){
         $model = new \App\Model\Home();
         $wynik = $model -> test($_GET['id']);
@@ -29,8 +32,5 @@ class Home extends \App\Engine\Controller
         $view-> wynik = $wynik;
         $view->renderHTML('home', 'front/home/'); 
     }
-    public function test2(){
-        
-        echo $_GET['id'];
-    }
+  */
 }

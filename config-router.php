@@ -1,7 +1,7 @@
 <?php
 $collection = new \App\Engine\Router\RouteCollection();
 
-
+/*
 $collection->add('test/' , new \App\Engine\Router\Route(
 HTTP_SERVER.'test',
     array(
@@ -15,25 +15,7 @@ HTTP_SERVER.'test',
     array(
         'id' => 4
     )
-));
-
-$collection->add('test' , new \App\Engine\Router\Route(
-HTTP_SERVER.'test/<id>?/<id2>?',
-    array(
-        'file' => DIR_CONTROLLER.'Home.php',
-        'method' => 'test',
-        'class' => '\App\Controller\Home'
-    ),
-    array(
-        'id' => '\w+',
-        'id2' => '\w+',
-        
-    ),
-    array(
-        'id' => 0,
-        'id2' => 0
-    )
-));
+));*/
 
 $collection->add('rejestracja', new \App\Engine\Router\Route(
  HTTP_SERVER.'rejestracja',

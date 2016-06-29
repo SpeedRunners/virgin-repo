@@ -12,7 +12,12 @@
            
          <div class="container-fluid">
             <div class="content">  
-                Logowanie             
+                <form action="<?php echo HTTP_SERVER?>" method="post" >
+                    <input type="text" name="a"/>
+                    <input type="text" name="b"/>
+                    <input type='submit'/>
+                    
+                </form>           
             </div>
         </div>
     </div>
