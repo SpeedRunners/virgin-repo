@@ -35,6 +35,15 @@ $collection->add('logowanie', new \App\Engine\Router\Route(
     )
 ));
 
+$collection->add('log', new \App\Engine\Router\Route(
+ HTTP_SERVER.'log',
+    array(
+        'file' => DIR_CONTROLLER.'Home.php',
+        'method' => 'log',
+        'class' => '\App\Controller\Home'
+    )
+));
+
 $collection->add('home', new \App\Engine\Router\Route(
     HTTP_SERVER.'',
     array(

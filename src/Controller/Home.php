@@ -23,6 +23,11 @@ class Home extends \App\Engine\Controller
         $view = new \App\View\Home();
         $view->renderHTML('logowanie', 'front/home/'); 
     }
+    
+     public function log(){
+        if( isset($_POST['login']) && isset($_POST['password'] )) echo "Zalogowany";
+        else $this -> logowanie();   
+     }
     /*
     public function test(){
         $model = new \App\Model\Home();
